@@ -1,0 +1,23 @@
+{
+  "name": "discord-archive-bot",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/foundry-hub/discord-archive-bot.git"
+  },
+  "author": "Mathias Latournerie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/foundry-hub/discord-archive-bot/issues"
+  },
+  "homepage": "https://gitlab.com/foundry-hub/discord-archive-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "wpapi": "^1.2.2"
+  }
+}
