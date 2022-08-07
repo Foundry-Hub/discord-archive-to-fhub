@@ -18,6 +18,6 @@
   "homepage": "https://gitlab.com/foundry-hub/discord-archive-bot#readme",
   "dependencies": {
     "discord.js": "^14.0.3",
-    "wpapi": "^1.2.2"
+    "wpapi": "github:JiDW/node-wpapi#fhub"
   }
 }
