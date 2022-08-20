@@ -12,7 +12,7 @@ client.once('ready', () => {
 
 client.on('messageCreate', (message) => {
 	console.log('Message received!');
-	if (message.channelId === 'CONTENT_CHANNEL_ID')
+	//if (message.channelId === 'CONTENT_CHANNEL_ID')
 		Archivist.save(message);
 });
 
@@ -21,6 +21,7 @@ client.login(token);
 
 const Archivist = {
 	save: (message) => {
+		console.log(message);
 		let parsedMessage = Archivist.parseMessage(message);
 		console.log(parsedMessage);
 	},
